@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script defer src="js/script.js"></script>
+    <title>MTgraphy</title>
+</head>
+<body>
+            <nav>
+                <a href="#" class="logo1">MTgraphy</a>
+                <div class="navbarcon">
+                    <ul class="navbar">
+                        <li>
+                            <a href="#gallery" class="navbar-item">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="navbar-item">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="navbar-item">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="navbar-item">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
+    <section id="home">
+        <div>
+            <header class="welcome">Hello, welcome to MTgraphy</header>
+            <b class="slogan">Where moments exist to be captured</b>
+            <h1 class="slogan-2">Don’t miss the moments. Capture them. 
+                With us.</h1>
+                <a href="#gallery"><button class="gallery-button" type="button">
+                <h1 class="gallery-button-text">Gallery</h1>
+            </button></a>
+            <a href="#contact"><button class="contact-us-button">
+                <h1 class="contact-us-button-text">Contact Us</h1>
+            </button></a>
+            <img src="img/Foto Home Page.png" alt="picture" class="foto-home-page">
+        </div>
+    </section>
+
+
+    <!-- section gallery -->
+    <section id="gallery">
+        <div>
+            <h1 id="gallery-txt">Gallery</h1>
+        </div>
+        <div class="list-photo-vertical-con">
+            <ul class="list-photo-vertical">
+                    <li>
+                        <img src="img/Rectangle6.png" alt="" class="list-photo-vertical-item">
+                    </li>
+                    <li>
+                        <img id="photo-2" src="img/Rectangle-7.png" alt="" class="list-photo-vertical-item">
+                    </li>
+                    <li>
+                        <img id="photo-3" src="img/Rectangle-8.png" alt="" class="list-photo-vertical-item">
+                    </li>
+                        
+            </ul>
+        </div>
+
+        <!-- <div>
+            <img id="panah-kiri" src="img/panahkiri.svg" alt="" class="tanda-panah-kiri">
+                        <img id="panah-kanan" src="img/panahkanan.svg" alt="" class="tanda-panah-kanan">
+        </div> -->
+
+        <div class="list-photo-horizontal-con">
+            <ul class="list-photo-horizontal">
+                    <li>
+                        <img src="img/Rectangle 9.png" alt="" class="list-photo-horizontal-item">
+                    </li>
+                    <li>
+                        <img id="photo-2" src="img/Rectangle 10.png" alt="" class="list-photo-horizontal-item">
+                    </li>
+                    <li>
+                        <img id="photo-3" src="img/Rectangle 11.png" alt="" class="list-photo-horizontal-item">
+                    </li>
+                        
+            </ul>
+        </div>
+    </section>
+ 
+
+    <!-- section about us -->
+    <section id="about">
+        <div>
+            <h1 class="about-txt">About Us</h1>
+            <img src="img/about.png" alt="" class="about-img">
+            <p class="about-us">
+                MTgraphy was founded in 2010 by a group of people who wanted to create beautiful photos. Now, MTgraphy is a company that provides services to people who wants to capture their best moments. We are people who are passionate about photography. We are here to help you to capture your best moments. You can find us in the following places: Indonesia, Singapore, Malaysia, and many other countries coming soon. We believe that every moments are exist to be captured.
+            </p>
+            <!-- <p class="about-us">
+                Cras id erat quis nisi ornare vehicula. Fusce molestie viverra sollicitudin. Fusce placerat vitae neque et condimentum. Pellentesque hendrerit est lacus, non ultrices dolor condimentum at. Maecenas eu elit sit amet nibh pharetra vulputate et eget enim. Aenean eget dui sit amet nulla lobortis vehicula ut ac turpis.
+            </p> -->
+        </div>
+    </section>
+
+    <!-- section contact us and subscribe -->
+    <section id="contact">
+        <div>
+            <h1 class="contact-txt">Contact Us</h1>
+            <div class="contact-box">
+                <h2 class="mtgraphy-contact">MTgraphy</h2>
+                <div class="contact-desc">
+                    <h3 id="contact-address">ABC Tower Z 19, 
+                        Jakarta, Indonesia.
+                        123123</h3>
+                    <div class="contact-desc-2">
+                        <img src="img/call-email.png" alt="" id="contact-call">
+                        <h3 id="contact-address-2">
+                            +62 1234 789
+                            MTgraphy@email.com
+                        </h3>
+                    </div>
+                    
+                </div>
+
+                <div class="contact-sosmed">
+                    <a href="http://facebook.com"><img src="img/facebook.png" alt="" id="contact-facebook"></img></a>
+                    <a href="http://linkedin.com"><img src="img/linkedin.png" alt="" id="contact-linkedin"></img></a> 
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="subscribe-txt">Subscribe</h1>
+            <div class="subscribe-box" id="error">
+                <form action="" id="form" name="form1">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="email" placeholder="Email" id="email" name="email1">
+                    <input type="text" placeholder="Phone Number" id="phoneNumber" >
+                    <input type="text" placeholder="Country" id="country" >
+                    <h1 class="terms-txt">Agree on Terms & Conditions</h1 >
+                    <button type="button" class="terms-btn" id="terms"> </button>
+                    <button type="submit" class="submit" onclick="validateEmail(document.form1.text1)">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer-txt">
+            <a href="#" class="footer-txt-2">MTgraphy</a>
+            <ul class="navbar">
+                <li>
+                    <a href="#gallery" class="navbar-item">Gallery</a>
+                </li>
+                <li>
+                    <a href="#about" class="navbar-item">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar-item">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar-item">Subscribe</a>
+                </li>
+                <li>
+                    <a href="http://facebook.com"><img src="img/facebook.png" alt="" id="contact-facebook"></img></a>
+                </li>
+                <li>
+                   <a href="http://linkedin.com"><img src="img/linkedin.png" alt="" id="contact-linkedin"></img></a> 
+                </li>
+            </ul>
+            </div>
+               
+    </footer>
+</body>
+</html>

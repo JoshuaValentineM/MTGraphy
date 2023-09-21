@@ -1,0 +1,603 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    background: linear-gradient(243.25deg, #F8D47F 2.39%, rgba(226, 206, 199, 0.6) 99.17%);
+    /* position: relative; */
+/* width: 1440px;
+height: 1024px; */
+font-family: 'Poppins';
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    margin-left: 164px;
+    margin-top: 53px;
+    padding: 0 0 0 0;
+    /* background-color: rgba(38, 38, 38, 0.58); */
+    align-items: center;
+    color: white;
+    
+    /* position: fixed; */
+}
+
+.logo1{
+    /* position: absolute; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbarcon{
+    width: 50%;
+    /* background-color: #ffa; */
+    margin-left:611px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    list-style: none;
+    /* background-color: aqua; */
+}
+.navbar-item{
+    display: flex;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+/* section home  */
+
+#home{
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.welcome{
+/* position: absolute; */
+width: 349px;
+height: 36px;
+margin-left: 156px;
+margin-top: 181px;
+/* margin: auto; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+
+.slogan{
+position: absolute;
+width: 521px;
+height: 144px;
+left: 164px;
+top: 377px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 72px;
+
+color: #000000;
+}
+
+.slogan-2{
+position: absolute;
+width: 363px;
+height: 54px;
+left: 164px;
+top: 523px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.gallery-button{
+position: absolute;
+width: 174px;
+height: 51px;
+left: 164px;
+top: 594px;
+background: #F8D47F;
+border-radius: 15px;
+border-width: 0ch;
+cursor: pointer;
+}
+
+.gallery-button-text{
+position: absolute;
+left: 26.22%;
+right: 26.66%;
+top: 18.18%;
+bottom: 17.11%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.contact-us-button{
+    position: absolute;
+    width: 174px;
+    height: 51px;
+    left: 374px;
+    top: 594px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.contact-us-button-text{
+    position: absolute;
+left: 14.61%;
+right: 15.27%;
+top: 18.18%;
+bottom: 17.11%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 33px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.foto-home-page{
+    float: right;
+    position: absolute;
+width: 500px;
+height: 400px;
+left: 935px;
+top: 200px;
+border-radius: 15px;
+}
+
+
+/* section gallery */
+
+#gallery{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #000000; */
+}
+
+#gallery-txt{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.list-photo-vertical-con{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    
+    /* background-color: #FFFFFF; */
+}
+
+.list-photo-vertical{
+    float: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.list-photo-vertical-item{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 170px;
+    text-decoration: none;
+    width: 206px;
+    height: 276px;
+}
+
+.list-photo-horizontal-con{
+    width: 100%;
+    margin-top: 100px;
+    height: 300px;
+    justify-content: center;
+    /* background-color: #FFFFFF; */
+}
+
+.list-photo-horizontal{
+    float: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.list-photo-horizontal-item{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 110px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 336px;
+    height: 165px;
+}
+
+/* .tanda-panah-kiri{
+    width: 25px;
+height: 25px;
+margin-left: 690px;
+top: 607px;
+} */
+
+
+/* section about us  */
+#about{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000000; */
+    justify-content: center;
+    
+}
+
+.about-txt{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.about-img{
+    /* float: center; */
+    /* display: inline-flex; */
+    width: 620px;
+    height: 306px;
+    /* margin-left: 410px; */
+    /* justify-content: center; */
+    /* width: 60%; */
+    margin: auto;
+    display: block;
+}
+
+.about-us{
+    
+    width: 618px;
+    height: 204px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+#contact{
+    width: 100%;
+    height: 145vh;
+    /* background-color: #000000; */
+}
+
+.contact-txt{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    /* background-color: aqua; */
+}
+
+.contact-box{
+    /* display: flex; */
+    width: 697px;
+
+    background: #F8D47F;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mtgraphy-contact{
+    font-family: 'Poppins';
+    height: 0px;
+    width: 200px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+margin-left: 53px;
+text-align:left;
+color: #000000;
+padding-top: 20px;
+}
+
+#contact-address{
+    width: 170px;
+    height: 81px;
+    float: center;
+    display: flex;
+    margin-left: 53px;
+    border-radius: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+/* background-color: #FFFFFF; */
+}
+
+.contact-desc{
+    /* background-color: aqua; */
+    float: center;
+    display: flex;
+    
+}
+
+.contact-desc-2{
+    /* background-color: aqua; */
+    float: center;
+    display: flex;
+}
+
+#contact-call{
+display: flex;
+margin-left: 20px;
+width: 30px;
+height: 55px;
+padding-top: 15px;
+}
+
+#contact-address-2{
+
+margin-left: 10px;
+width: 170px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.contact-sosmed{
+    /* background-color: aqua; */
+    float: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#contact-facebook{
+    display: flex;
+    margin-left: 52px;
+}
+
+#contact-linkedin{
+    display: flex;
+    margin-left: 20px;
+}
+
+.subscribe-txt{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    /* background-color: aqua; */
+}
+
+.subscribe-box{
+    float: center;
+    display: flex;
+    /* margin-left: 371px; */
+    width: 700px;
+    
+    background: #F8D47F;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+/* #subscribe-input{
+    border: 1px solid #000000;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 41px;
+    left: 612px;
+    top: 607px;
+    border: 2px solid #000000;
+} */
+
+#name{
+    border: 1px solid #000000;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 41px;
+    left: 612px;
+    top: 607px;
+    border: 2px solid #000000;
+}
+
+#email{
+    border: 1px solid #000000;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 41px;
+    left: 612px;
+    top: 607px;
+    border: 2px solid #000000;
+}
+
+#phoneNumber{
+    border: 1px solid #000000;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 41px;
+    left: 612px;
+    top: 607px;
+    border: 2px solid #000000;
+}
+
+#country{
+    border: 1px solid #000000;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 41px;
+    left: 612px;
+    top: 607px;
+    border: 2px solid #000000;
+}
+
+.terms{
+    display: flex;
+    float: center;
+    width: auto;
+    height: auto;
+    /* background-color: white; */
+}
+
+.terms-btn{
+    display: flex;
+    width: 17px;
+    height: 18px;
+    margin-left: 250px;
+    margin-top: 15px;
+    cursor: pointer;
+border: 2px solid #000000;
+}
+
+.terms-txt{
+    /* display: flex; */
+margin-left: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+margin-left: 250px;
+color: #000000;
+}
+
+.submit{
+    width: 135px;
+height: 40px;
+margin-left: 250px;
+margin-top: 10px;
+cursor: pointer;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+background: #FEB300;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+
+#footer{
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(243.25deg, rgba(0, 0, 0, 0.5) 2.39%, #FFFFFF 99.17%);
+    
+}
+
+#footer-txt{
+    padding-top: 75px;
+    display: flex;
+}
+
+.footer-txt-2{
+text-align: left;
+font-size: 48px;
+width: 260px;
+height: 100px;
+margin-left: 164px;
+display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+text-decoration: none;
+color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .list-photo-vertical-item{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .list-photo-horizontal-item{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 90%;
+        height: 90%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
